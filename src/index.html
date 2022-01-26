@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twilio Video</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="app.js"></script>
+</head>
+<body class="bg-slate-100">
+<div class="container mx-auto rounded border-slate-300 bg-white shadow p-5">
+
+    <h1 class="text-3xl font-bold">
+        Video Chat!
+    </h1>
+    <span id="name" class="font-bold"></span>
+    <button id="join-room" class="text-gray-100 bg-blue-500 p-1 rounded border-blue-300 border-2">Join Room</button>
+    <button id="exit-room" class="text-gray-100 bg-red-500 p-1 rounded border-red-300 border-2">Exit Room</button>
+    <div id="local-video"></div>
+    <div id="portal"></div>
+</div>
+</body>
+</html>
